@@ -18,7 +18,7 @@
       </Label>
       <HBox layoutX="69.0" layoutY="149.0" prefHeight="181.0" prefWidth="515.0" spacing="5.0" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="69.79999999999995">
          <children>
-            <Button fx:id="btnProfile" contentDisplay="TOP" onAction="#onProfileButtonClicked" prefHeight="143.0" prefWidth="122.0" text="Mon Profil" textAlignment="CENTER">
+            <Button fx:id="btnProfile" contentDisplay="TOP" onAction="#onProfileButtonClicked" prefHeight="143.0" prefWidth="122.0" text="Mon Profile" textAlignment="CENTER">
                <graphic>
                   <ImageView fitHeight="138.0" fitWidth="182.0" pickOnBounds="true" preserveRatio="true">
                         <image>
