@@ -1,1 +1,6 @@
 com\kuetu\App.class
+com\kuetu\controllers\ProfileController.class
+com\kuetu\controllers\HomeController.class
+com\kuetu\controllers\LessonController.class
+com\kuetu\models\Student.class
+com\kuetu\controllers\MathController.class

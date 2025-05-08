@@ -20,6 +20,7 @@ public class App extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         scene.setFill(Color.TRANSPARENT);
         stage.setScene(scene);
+        stage.initStyle(StageStyle.TRANSPARENT);
         stage.setTitle("Easy learn");
         stage.show();
     }

@@ -1,11 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="anchorMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="654.0" styleClass="bg-cloud" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kuetu.controllers.HomeController">
    <children>
-      <Button layoutX="212.0" layoutY="271.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="221.0" text="Hello world" />
+      <Label layoutX="110.0" layoutY="42.0" prefHeight="55.0" prefWidth="434.0" text="Mon Aventure Scolaire" textAlignment="CENTER" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="110.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <HBox layoutX="69.0" layoutY="149.0" prefHeight="181.0" prefWidth="515.0" spacing="5.0" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="69.79999999999995">
+         <children>
+            <Button fx:id="btnProfile" contentDisplay="TOP" onAction="#onProfileButtonClicked" prefHeight="143.0" prefWidth="122.0" text="Mon Profil" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="138.0" fitWidth="182.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@../media/img/girl_96px.png" />
+                        </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="btn-transparent" />
+                  <String fx:value="btn" />
+               </styleClass>
+            </Button>
+            <Button fx:id="btnLearn" contentDisplay="TOP" onAction="#onLearnButtonClicked" prefHeight="140.0" prefWidth="106.0" text="Apprendre" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="138.0" fitWidth="182.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../media/img/google_classroom_96px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="btn-transparent" />
+                  <String fx:value="btn" />
+               </styleClass>
+            </Button>
+            <Button fx:id="btnClose" contentDisplay="TOP" onAction="#onCloseButtonClicked" prefHeight="135.0" prefWidth="115.0" text="Quitter" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="138.0" fitWidth="182.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../media/img/cancel_96px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="btn-transparent" />
+                  <String fx:value="btn" />
+               </styleClass>
+            </Button>
+         </children>
+      </HBox>
+      
    </children>
 </AnchorPane>

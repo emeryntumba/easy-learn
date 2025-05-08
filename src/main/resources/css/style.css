@@ -1,0 +1,62 @@
+.bg-cloud{
+    -fx-background-image: url("../media/img/cloud-bg.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.btn-transparent{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.btn-bordered-white{
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+}
+
+.bg-blue{
+    -fx-background-color: #0078D7;
+}
+
+.rounded-corners{
+    -fx-background-radius: 30px;
+}
+
+.rounded-circle{
+    -fx-background-radius: 20%;
+}
+
+.bg-yard{
+    -fx-background-image: url("../media/img/bg-profile.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.bg-green{
+    -fx-background-color: #3DC071;
+}
+
+.bg-blue-light{
+    -fx-background-color: #2597c8;
+}
+
+.bg-yellow-light{
+    -fx-background-color: #F2BC4B;
+}
+
+.btn:hover{
+    -fx-background-color: #D9E9F0;
+}
+/*.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+.scroll-bar:horizontal .track{
+    -fx-background-color: transparent;
+    -fx-visible: false;
+}
+
+.scroll-bar:horizontal .thumb{
+    -fx-background-color: #3DC071;
+}*/
